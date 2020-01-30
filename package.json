@@ -1,0 +1,56 @@
+{
+  "name": "React-Portfolio",
+  "version": "1.0.0",
+  "description": "React-Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyleesia/React-Portfolio.git"
+  },
+  "keywords": [
+    "react-app",
+    "girl-code"
+  ],
+  "author": "Nyleesia Nicome Schnarr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nyleesia/React-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Nyleesia/React-Portfolio#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.8.10",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "react": "^16.12.0",
+    "react-calendar": "^2.19.2",
+    "react-clock": "^2.4.0",
+    "react-digital-clock": "^0.1.2",
+    "react-live-clock": "^4.0.3",
+    "react-user-profile": "^1.0.3",
+    "styled-components": "^5.0.0",
+    "themed-digital-clock": "^1.1.0",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "concurrently": "^5.0.0"
+  }
+}
