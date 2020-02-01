@@ -1,2 +1,2 @@
 # React-Portfolio
-A personal prjects portfolio using ReactJS, MongoDB, ExpressJS and NodeJS
+A personal projects portfolio using ReactJS, MongoDB, ExpressJS and NodeJS
