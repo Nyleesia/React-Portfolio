@@ -28,10 +28,6 @@
   },
   "homepage": "https://github.com/Nyleesia/React-Portfolio#readme",
   "dependencies": {
-<<<<<<< HEAD
-    "axios": "^0.19.2",
-=======
->>>>>>> 791b9045444c1ed4507929fa5872c69e5a942ce6
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -44,18 +40,10 @@
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "react": "^16.12.0",
-<<<<<<< HEAD
-    "react-bootstrap": "^1.0.0-beta.16",
-=======
->>>>>>> 791b9045444c1ed4507929fa5872c69e5a942ce6
     "react-calendar": "^2.19.2",
     "react-clock": "^2.4.0",
     "react-digital-clock": "^0.1.2",
     "react-live-clock": "^4.0.3",
-<<<<<<< HEAD
-    "react-router-dom": "^5.1.2",
-=======
->>>>>>> 791b9045444c1ed4507929fa5872c69e5a942ce6
     "react-user-profile": "^1.0.3",
     "styled-components": "^5.0.0",
     "themed-digital-clock": "^1.1.0",
