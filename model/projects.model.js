@@ -2,11 +2,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const ProjectsSchema = new Schema ({
-    projectID: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User"
-    }, 
-
     name : {
         type :  String, 
         required : true,
@@ -35,7 +30,7 @@ const ProjectsSchema = new Schema ({
     photo : {
         type :  String, 
         required : false,
-        trim: true,
+        data: Buffer
     },
 
     addedOn : {

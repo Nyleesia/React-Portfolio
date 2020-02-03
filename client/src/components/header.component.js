@@ -19,9 +19,16 @@ const Head = (props) => {
                         href = "/projects" > Projects 
                     </Nav.Link>
 
+                     <Nav.Link
+                        href = "/blog">Blog  
+                    </Nav.Link>
+
                     <Nav.Link
+                        href = "/research">Research  
+                    </Nav.Link>
+                                    <Nav.Link
                         href = "/contact">Contact  
-                    </Nav.Link>      
+                    </Nav.Link>     
                 </Nav>               
 
             </Navbar>

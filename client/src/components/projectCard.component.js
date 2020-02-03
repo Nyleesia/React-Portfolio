@@ -11,7 +11,6 @@ class ProjectCard extends Component {
                     {this.props.name}
                 </Card.Title>
                 <Card.Img src = {this.props.photo}>
-                    
                 </Card.Img>
                 <Card.Subtitle> Languages:
                     {this.props.languages}

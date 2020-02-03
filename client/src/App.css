@@ -66,23 +66,40 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 800px;
+  max-width: 960px;
   padding: 30px;
   background: #fff;
   box-sizing: border-box;
   border-radius: 10px;
   box-shadow: 0 15px 50px rgba(0, 0, 0, .2) ;
+  display: flex;
 }
+
 
 .contactInfo{
   border: none;
 
+  padding: 15px;
+}
 
-}.contactLogos{
+.messageInfo{
+  border: none;
+  padding: 15px;
+  border-left: grey solid 1px;
+}
+
+.contactLogos{
   border: none;
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+
+.contactCardHead{
+  text-align: center;
+  font-size: larger;
+  color: grey;
+  font-family: sans-serif;
 }
 
 h2{
